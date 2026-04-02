@@ -40,7 +40,7 @@ function Profile() {
     }
   };
 
-  if (!user) return <p>Необходимо войти в систему</p>;
+  if (!user) return <p className="error">Необходимо войти в систему</p>;
 
   return (
     <div className="container">
